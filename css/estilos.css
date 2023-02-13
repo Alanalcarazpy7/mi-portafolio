@@ -317,6 +317,8 @@ nav{
 }
 
 /* Estas clases se agregaran dinamicamente mediante javascript */
+
+/*Frontend*/
 #skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -352,6 +354,19 @@ nav{
     0%{width: 0%;}
     100%{width: 75%;}
 }
+
+/*Backend*/
+.barra-skill .nodejs{
+    width: 0%;
+    animation: 2s nodejs forwards;
+}
+@keyframes nodejs {
+    0%{width: 0%;}
+    100%{width: 35%;}
+}
+
+/*Bases de Datos*/
+
 
 /*--Section Curriculum--*/
 .section-curriculum{

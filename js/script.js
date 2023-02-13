@@ -11,7 +11,7 @@ function efectoHabilidades(){
         habilidades[1].classList.add("photoshop");
         habilidades[2].classList.add("python");
         habilidades[3].classList.add("htmlycss");
-        habilidades[4].classList.add("javascript");
+        habilidades[4].classList.add("nodejs");
         habilidades[5].classList.add("photoshop");
         habilidades[6].classList.add("python");
         habilidades[7].classList.add("htmlycss");
