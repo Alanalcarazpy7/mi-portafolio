@@ -128,6 +128,7 @@ nav{
     background-color: #1e2326;
     color: #fff;
     padding: 60px 20px;
+    /* display: none; */
 }
 .sobreMi-content{
     margin: auto;
@@ -144,6 +145,7 @@ nav{
 }
 .sobreMi-title p{
     padding: 1.5rem 0;
+    display: none;
 }
 .sobreMi-datosPersonales{
     width: 50%;
@@ -156,6 +158,7 @@ nav{
 .sobreMi-subtitulo h3{
     font-size: 1.7rem;
     font-family:'Righteous';
+    margin: auto;
 }
 .datosPersonales-content{
     display: flex;
@@ -612,7 +615,8 @@ figcaption p{
 .section-contacto{
     background: url(/assets/img/contact_bg.png) #1e2326;
     color: white;
-    padding: 60px 20px;
+    padding: 60px 0px;
+    /* display: none; */
 }
 .section-contacto-contain{
     margin: auto;
@@ -651,6 +655,7 @@ form input{
 .form-map iframe{
     padding: 10px;
     width: 100%;
+    /* display: none; */
 }
 .section-contacto button{
     padding: 10px 22px;
@@ -725,6 +730,7 @@ form input{
     .nav-container,.sobreMi-content,.section-skills-contain,.section-curriculum-contain,.section-contacto-contain,.section-footer-contain{
         width: 100%;
         max-width: 100%;
+        margin: auto;
     }
     .section-portfolio-contain, .proyecto img{
         width: 90%;
@@ -935,10 +941,52 @@ form input{
 @media screen and (max-width:500px){
     .intereses-containt{
         grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        text-align: center;
+        justify-content: center;
     }
     .section-portfolio-contain{
         width: 90%;
     }
+}
+
+/*Media Query 400px*//*Tamaño de Xiaomi Redmi Note 7-Mi cel*/
+@media screen and (max-width:400px){
+    .form-map,#contacto{
+        width: 90%;
+        margin: auto;
+        /* display: none; */
+    }
+    .section-contacto,.section-sobreMi{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 2rem;
+        margin: auto;
+    }
+    .datosPersonales-content{
+        justify-content: center;
+    }
+    .sobreMi-datosPersonales{
+        width: 100%;
+    }
+    .sobreMi-subtitulo,.sobreMi-info-containt{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .sobreMi-subtitulo{
+        padding-bottom: 1.5rem;
+    }
+    .sobreMi-info-containt{
+        padding-bottom: 1rem;
+    }
+    .intereses-containt div{
+        margin: auto;
+    }
+    .section-skills,.section-curriculum{
+        text-align: center;
+    }
+
 }
 
 /*Media Query 375px*/
