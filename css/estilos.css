@@ -342,11 +342,38 @@ nav{
 
 .barra-skill .python{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s python forwards;
 }
 @keyframes python {
     0%{width: 0%;}
     100%{width: 55%;}
+}
+
+.barra-skill .lenguajeC{
+    width: 0%;
+    animation: 2s lenguajeC forwards;
+}
+@keyframes lenguajeC {
+    0%{width: 0%;}
+    100%{width: 35%;}
+}
+
+.barra-skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+}
+@keyframes java {
+    0%{width: 0%;}
+    100%{width: 20%;}
+}
+
+.barra-skill .Office{
+    width: 0%;
+    animation: 2s Office forwards;
+}
+@keyframes Office {
+    0%{width: 0%;}
+    100%{width: 85%;}
 }
 
 .barra-skill .htmlycss{
@@ -365,7 +392,7 @@ nav{
 }
 @keyframes nodejs {
     0%{width: 0%;}
-    100%{width: 35%;}
+    100%{width: 25%;}
 }
 
 /*Bases de Datos*/
