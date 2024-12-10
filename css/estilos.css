@@ -331,13 +331,13 @@ nav{
     100%{width: 45%;}
 }
 
-.barra-skill .photoshop{
+.barra-skill .postgress{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s postgress forwards;
 }
-@keyframes photoshop {
+@keyframes postgress {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 40%;}
 }
 
 .barra-skill .python{
@@ -364,16 +364,7 @@ nav{
 }
 @keyframes java {
     0%{width: 0%;}
-    100%{width: 20%;}
-}
-
-.barra-skill .Office{
-    width: 0%;
-    animation: 2s Office forwards;
-}
-@keyframes Office {
-    0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 45%;}
 }
 
 .barra-skill .htmlycss{
@@ -383,6 +374,15 @@ nav{
 @keyframes htmlycss {
     0%{width: 0%;}
     100%{width: 75%;}
+}
+
+.barra-skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react {
+    0%{width: 0%;}
+    100%{width: 40%;}
 }
 
 /*Backend*/
@@ -597,6 +597,15 @@ figcaption p{
 }
 .python{
     background: #2f638d;
+}
+.java{
+    background: #FF9900;
+}
+.postgresql{
+    background: #336699;
+}
+.react{
+    background: #195b9e;
 }
 
 .proyecto{
