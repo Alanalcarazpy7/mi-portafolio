@@ -74,3 +74,14 @@ $hamburger.addEventListener("click",e=>{
 if (listas.classList.contains("active")==false){
     invisible.style.display="none"
 }
+
+//Cambiar de Idioma la Pagina
+const flagsElement=document.getElementById('idiomas')
+flagsElement.addEventListener('click', (e)=>{
+    if (e.target.parentElement.dataset.lenguaje=="es"){
+        location.href="/lenguajes/indexES.html"
+    }
+    else{
+        location.href="/lenguajes/indexEN.html"
+    }
+})
