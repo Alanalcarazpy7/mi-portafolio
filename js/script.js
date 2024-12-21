@@ -85,3 +85,14 @@ flagsElement.addEventListener('click', (e)=>{
         location.href="/lenguajes/indexEN.html"
     }
 })
+
+document.querySelectorAll(".nav-listas ul a").forEach(function (link) {
+  link.addEventListener("click", function () {
+    // Elimina la clase 'selected' de todos los enlaces
+    document.querySelectorAll(".nav-listas ul a").forEach(function (link) {
+      link.classList.remove("selected");
+    });
+    // Añade la clase 'selected' al enlace que fue clicado
+    this.classList.add("selected");
+  });
+});
