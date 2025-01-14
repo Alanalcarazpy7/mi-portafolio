@@ -851,6 +851,7 @@ form input{
 
 /*Media Query 960px*/
 @media screen and (max-width:960px){
+    
     .intereses-containt{
         grid-template-columns: repeat(3,1fr);
     }
@@ -980,6 +981,9 @@ form input{
         background-color: rgba(27, 27, 27, 0.9);
         height: 100%;
         z-index: 990;
+    }
+    nav{
+      padding-left: 0;
     }
     .active a{
         display: block;
