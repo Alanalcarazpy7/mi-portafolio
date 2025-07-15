@@ -657,6 +657,29 @@ figcaption p{
     background: #195b9e;
 }
 
+.supabase{
+    background: #195b9e;
+    
+}
+
+.icono-img {
+  width: 20px;
+  height: 20px !important;
+  margin: 0.5rem;
+}
+
+.tanstackQuery{
+    background: #195b9e;
+}
+
+.zustand{
+    background: #195b9e;
+}
+
+.styledComponents{
+    background: #195b9e;
+}
+
 .proyecto{
     position: relative;
     max-width: 100%;
